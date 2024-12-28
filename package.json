@@ -1,0 +1,17 @@
+{
+  "name": "@fourterms2/mineflayer-totem",
+  "version": "1.0.2",
+  "description": "Auto totem for mineflayer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gamermralros, fourterms2",
+  "license": "MIT",
+  "keywords": [
+    "mineflayer",
+    "totem",
+    "auto-totem",
+    "minecraft-bot"
+  ]
+}
