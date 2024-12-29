@@ -1,6 +1,6 @@
 Some basic Git commands are:
 ```
-npm i @fourterms2/mineflayer-totem
+npm i mineflayer-totem
 ```
 
 example code:
