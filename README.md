@@ -1,4 +1,8 @@
-Some basic Git commands are:
+Hawing problems
+```
+open a ticket in pull requiests
+```
+how to install:
 ```
 npm i mineflayer-totem
 ```
