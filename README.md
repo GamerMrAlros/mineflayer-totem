@@ -30,7 +30,7 @@ bot.on('spawn', () => {
 });
 ```
 
-```
 my npm
+```
 https://www.npmjs.com/package/mineflayer-totem
 ```
