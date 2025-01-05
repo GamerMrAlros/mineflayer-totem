@@ -29,3 +29,8 @@ bot.on('spawn', () => {
   console.log("AutoTotem is active!");
 });
 ```
+
+```
+my npm
+https://www.npmjs.com/package/mineflayer-totem
+```
