@@ -1,4 +1,4 @@
-Hawing problems
+Having problems
 ```
 open a ticket in pull requiests
 ```
