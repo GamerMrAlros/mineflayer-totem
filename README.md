@@ -9,25 +9,38 @@ npm i mineflayer-totem
 
 example code:
 ```
-// Import Mineflayer and the mineflayer-totem package
 const mineflayer = require('mineflayer');
 const mineflayerTotem = require('mineflayer-totem');  // Import the mineflayer-totem package
 
-// Create the bot
+// Create a bot instance with a valid username
 const bot = mineflayer.createBot({
-  host: 'localhost', // or your server address
-  port: 25565,       // server port
-  username: 'TotemBot', // replace with your bot's name
+  host: 'localhost', // Replace with your server's address if necessary
+  port: 25565,       // Replace with your server's port if necessary
+  username: 'util_bot', // Ensure this is a valid username without spaces
+  auth: 'microsoft'
 });
 
-// Once the bot spawns, initialize the auto-totem functionality
-bot.on('spawn', () => {
-  // You need to instantiate mineflayerTotem with 'new'
+// Event listener when the bot spawns successfully
+bot.once('spawn', () => {
+  
+  // Initialize Food module
   const autoTotem = new mineflayerTotem(bot);  // Create a new instance of AutoTotem
   autoTotem.start();  // Start the auto-totem functionality
 
-  console.log("AutoTotem is active!");
+  // Initialize AutoTotem module and start it
+
 });
+
+// Handle connection errors or other issues
+bot.on('error', (err) => {
+});
+
+bot.on('kicked', (reason) => {
+});
+
+bot.on('end', () => {
+});
+
 ```
 
 my npm
